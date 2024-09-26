@@ -120,7 +120,9 @@ int main()
 {
 	Array arr(50, { -100, 100 }), arr_cp(arr);
 
-	time_of(buble_sort, arr, 0);
+	//time_of(buble_sort, arr, 0);
+	//time_of(insertion_sort, arr, 0);
+	time_of(selection_sort, arr, 0);
 
 	check_for_lost_data(arr, arr_cp);
 
